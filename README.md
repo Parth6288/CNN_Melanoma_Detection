@@ -20,16 +20,20 @@
     4. Melanoma
     5. Nevus
     6. Pigmented benign keratosis
-    7.  Seborrheic keratosis
-    8.  Squamous cell carcinoma
+    7. Seborrheic keratosis
+    8. Squamous cell carcinoma
     9. Vascular lesion
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- In the intial model we can see a huge difference between training and validation accuracy and also the model is overfittin.
-- Gradually as we 
+- In the intial model we can see a huge difference between training(90%) and validation accuracy(50%) and also the model is overfittin.
+- Validation loss is also increasing in the first model.
+- With augmented data the overfitting is reduced however it also reduces the training accuracy.
+- Class imbalance is also clearly visible
+- Finally running the model with class rebalance(and running higher epochs) helps to achieve training accuracy of ~91% and validation accuracy of ~85%.
+- This also help to get rid of overfitting.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
